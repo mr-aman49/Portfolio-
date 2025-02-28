@@ -94,7 +94,7 @@ const AIChat: React.FC<AIChatProps> = ({ onClose }) => {
     } else if (lowerMessage.includes('project')) {
       return "I've worked on several exciting projects including an E-Commerce Microservices platform, a Task Management Dashboard, a Cloud-Based CRM, and DevOps Automation Pipelines. You can find more details in the Projects section.";
     } else if (lowerMessage.includes('contact') || lowerMessage.includes('email') || lowerMessage.includes('reach')) {
-      return "You can contact me through the form in the Contact section, or directly via email at contact@amanraj.com. I'm also available on LinkedIn and GitHub.";
+      return "You can contact me through the form in the Contact section, or directly via email at amanraj.87892@gmail.com. I'm also available on LinkedIn and GitHub.";
     } else if (lowerMessage.includes('experience') || lowerMessage.includes('work')) {
       return "I've been working as a Software Engineer since 2020, focusing on full-stack development and cloud technologies. I've gained experience in building scalable applications, microservices architecture, and DevOps practices.";
     } else if (lowerMessage.includes('education') || lowerMessage.includes('study') || lowerMessage.includes('degree')) {

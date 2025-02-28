@@ -162,15 +162,15 @@ const Hero: React.FC = () => {
           </p>
           
           <div className="flex space-x-4 mb-8 opacity-0 animate-[fadeIn_0.5s_0.9s_forwards]">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+            <a href="https://github.com/mr-aman49" target="_blank" rel="noopener noreferrer" 
                className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/20">
               <Github size={24} className="transform hover:rotate-12 transition-transform" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.linkedin.com/in/amanrajz/.com" target="_blank" rel="noopener noreferrer"
                className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/20">
               <Linkedin size={24} className="transform hover:rotate-12 transition-transform" />
             </a>
-            <a href="mailto:contact@amanraj.com"
+            <a href="amanraj.87892@gmail.com"
                className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/20">
               <Mail size={24} className="transform hover:rotate-12 transition-transform" />
             </a>
