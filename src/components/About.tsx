@@ -44,8 +44,8 @@ const About: React.FC = () => {
               onMouseLeave={() => setHoveredBox(null)}
             >
               <h3 className="text-xl font-semibold mb-2">Education</h3>
-              <p className="text-gray-400">B.Tech in Computer Science</p>
-              <p className="text-gray-500">2016 - 2020</p>
+              <p className="text-gray-400">B.E in Computer Science</p>
+              <p className="text-gray-500">2019 - 2023</p>
             </div>
             
             <div 
@@ -55,7 +55,8 @@ const About: React.FC = () => {
             >
               <h3 className="text-xl font-semibold mb-2">Experience</h3>
               <p className="text-gray-400">Software Engineer I</p>
-              <p className="text-gray-500">2020 - Present</p>
+              <p className="text-gray-500">At Kaplan</p>
+              <p className="text-gray-500">2023 - Present</p>
             </div>
             
             <div 
