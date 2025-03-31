@@ -32,7 +32,7 @@ const About: React.FC = () => {
                 <span className="text-xl">💬</span>
               </div>
               <p className="text-blue-300 italic">
-                "I'm not just a developer - I'm your AI-powered solution architect. I combine technical expertise with creative problem-solving to deliver exceptional results."
+                "I'm a full-stack developer with expertise in frontend and backend technologies, along with a deep understanding of prompt engineering. By combining these skills, I design and build intelligent, high-performance applications that seamlessly integrate AI-driven functionality for a smarter user experience."
               </p>
             </div>
           </div>
