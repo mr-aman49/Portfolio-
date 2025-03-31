@@ -148,14 +148,13 @@ const Hero: React.FC = () => {
         <div className="md:w-1/2 mb-8 md:mb-0">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             <span className="block h-16 overflow-hidden">
-              {typingText}
-              {isTyping && !typingComplete && <span className="animate-pulse">|</span>}
+              Hi I'm a 
             </span>
             <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent inline-block transform hover:scale-105 transition-transform duration-300">
               Software Engineer
             </span>
           </h1>
-          <h2 className="text-2xl md:text-3xl text-gray-300 mb-6 opacity-0 animate-[fadeIn_0.5s_0.3s_forwards]">AI-Powered Developer</h2>
+          <h2 className="text-2xl md:text-3xl text-gray-300 mb-6 opacity-0 animate-[fadeIn_0.5s_0.3s_forwards]">Full Stack Developer</h2>
           <p className="text-lg text-gray-400 mb-8 max-w-lg opacity-0 animate-[fadeIn_0.5s_0.6s_forwards]">
             Building robust and scalable applications with modern technologies.
             Passionate about creating efficient solutions to complex problems.
