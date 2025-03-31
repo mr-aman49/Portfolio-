@@ -21,16 +21,16 @@ const Projects: React.FC = () => {
       description: "A scalable e-commerce platform built with microservices architecture using Spring Boot, MongoDB, and Redis for caching.",
       image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
       technologies: ["Java", "Spring Boot", "MongoDB", "Redis", "Docker", "Kubernetes"],
-      githubUrl: "https://github.com",
+      githubUrl: "https://github.com/mr-aman49/ecommerce-platform",
       liveUrl: "https://example.com"
     },
     {
-      title: "Task Management Dashboard",
-      description: "A responsive task management application with real-time updates, built with React.js and Node.js.",
+      title: "Cavitek",
+      description: "Cavitek is a sanitary pad e-commerce platform with an integrated menstrual cycle prediction system. ",
       image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
       technologies: ["React.js", "Node.js", "Express", "MongoDB", "Socket.io"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com"
+      githubUrl: "https://github.com/mr-aman49/Cavitek/tree/main/frontent",
+      liveUrl: "https://zeeropads.vercel.app/"
     },
     {
       title: "Cloud-Based CRM",
