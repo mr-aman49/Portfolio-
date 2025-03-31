@@ -138,15 +138,7 @@ function App() {
               transition={{ delay: 0.2 }}
               className="bg-gray-900 border-b border-blue-900/50 text-xs py-1 px-4 flex justify-between items-center font-mono"
             >
-              <div className="flex items-center">
-                <span className="inline-block w-2 h-2 rounded-full bg-green-500 animate-pulse mr-2"></span>
-                <span className="text-green-400">AI SYSTEM ONLINE</span>
-              </div>
-              <div className="text-blue-400">
-                <span className="mr-4">CPU: 32%</span>
-                <span className="mr-4">MEMORY: 64%</span>
-                <span>NEURAL NETWORK: ACTIVE</span>
-              </div>
+              
             </motion.div>
 
             <Header mobileMenuOpen={mobileMenuOpen} toggleMobileMenu={toggleMobileMenu} />
