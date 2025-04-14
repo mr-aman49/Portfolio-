@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import profilePic from '../assets/mine.jpg';
+import resumePDF from "../assets/AmanResume(1).pdf";
+
 
 const Hero: React.FC = () => {
   const [expression, setExpression] = useState('neutral');
@@ -188,6 +190,16 @@ const Hero: React.FC = () => {
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-400 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
               </span>
             </a>
+            <a
+            href={resumePDF}
+            download="Aman-Resume.pdf"
+            className="bg-gradient-to-r from-green-500 to-teal-600 hover:from-green-600 hover:to-teal-700 text-white font-medium py-3 px-6 rounded-lg text-center transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-green-500/20 group"
+          >
+            <span className="relative inline-block">
+              Download Resume
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+            </span>
+          </a>
           </div>
         </div>
         
