@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
-import profilePic from '../assets/profile.jpg';
+import profilePic from '../assets/mine.jpg';
 
 const Hero: React.FC = () => {
   const [expression, setExpression] = useState('neutral');
